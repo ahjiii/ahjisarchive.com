@@ -82,7 +82,7 @@ button.white {
 	transition: 0.2s;
 }
 	
-/* Header Here */
+/* Header */
 
 #header {
 	display: flex;
@@ -477,6 +477,7 @@ footer .copyright {
 }
 
 /* Wine Page */
+
 #page-header {
 	background-image: url("../images/wine-shop/header.jpg");
 	width: 100%;
@@ -813,6 +814,7 @@ footer .copyright {
 }
 
 /*  My Merch Shop */
+
 #page-header.merch-header {
 	background-image: url("../images/merch-shop/pexels-icon0-733100 copy.jpg");
 	width: 100%;
