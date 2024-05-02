@@ -888,3 +888,20 @@ footer .copyright {
 	padding-top: 10px;
 	text-align: center;
 }
+
+#contact-form form {
+	width: 65%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+#contact-form form span {
+	font-size: 12px; 
+}
+
+#contact-form form h2 {
+	font-size: 16px;
+	padding-bottom: 15px;
+	padding: 20px 0;
+}
