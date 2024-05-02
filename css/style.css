@@ -847,3 +847,44 @@ footer .copyright {
 
 /* Contact */
 
+#contact-details h2 {
+	font-size: 40px;
+	text-align: center;
+} 
+
+#contact-details p {
+	text-align: center;
+	font-size: 14px;
+	color: #515151; 
+	font-family: "komet";
+	font-style: italic;
+}
+
+#contact-details h6 {
+	font-family: "komet-sc";
+	font-size: 14px;
+	color: #ed6c4d;
+	padding-top: 10px;
+	text-align: center;
+}
+
+#contact-form h2 {
+	font-size: 40px;
+	text-align: center;
+} 
+
+#contact-form p {
+	text-align: center;
+	font-size: 14px;
+	color: #515151; 
+	font-family: "komet";
+	font-style: italic;
+}
+
+#contact-form h6 {
+	font-family: "komet-sc";
+	font-size: 14px;
+	color: #ed6c4d;
+	padding-top: 10px;
+	text-align: center;
+}
