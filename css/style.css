@@ -356,28 +356,33 @@ button.white {
 	margin-bottom: 0; 
 }
 
-#newsletter h4 {
+#newsletter h4,
+#con-newsletter h4 {
 	font-size: 22px;
 	font-weight: 700;
 	color: #99bc96;
 }
 
-#newsletter p {
+#newsletter p,
+#con-newsletter p {
 	font-size: 14px;
 	font-weight: 600;
 	color: #edd6c5;
 }
 
-#newsletter h4 span {
+#newsletter h4 span,
+#con-newsletter h4 span{
 	color: #ed6c4d;
 }
 
-#newsletter form {
+#newsletter form,
+#con-newsletter form {
 	display: flex;
 	width: 40%;
 }
 
-#newsletter input {
+#newsletter input,
+#con-newsletter input {
 	height: 3.125rem;
 	padding: 0 1.25em;
 	font-size: 14px;
@@ -388,7 +393,8 @@ button.white {
 	border-bottom-right-radius: 0;
 }
 
-#newsletter button {
+#newsletter button,
+#con-newsletter button{
 	background-color:#ed6c4d;
 	color: #fff;
 	white-space: nowrap;
@@ -866,6 +872,24 @@ footer .copyright {
 	color: #ed6c4d;
 	padding-top: 10px;
 	text-align: center;
+}
+
+#contact-form {
+	background: #cff0be;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+	margin-bottom: 0; 
+}
+
+#con-newsletter {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	background-image: url("../images/home/banner.png");
+	background-repeat: no-repeat;
+	background-position: 20% 30%;
+	margin-bottom: 0;
+	margin-top: 0;
 }
 
 #contact-form h2 {
