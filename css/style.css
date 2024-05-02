@@ -941,3 +941,7 @@ footer .copyright {
 	border: 1px solid #e1e1e1;
 }
 
+#contact-form form button {
+	background-color: #ed6c4d;
+	color: #fff;
+}
