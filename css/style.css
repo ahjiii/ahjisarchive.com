@@ -3,6 +3,12 @@
 	font-family: "komet", sans-serif;  
 }
 
+/* Hi soyeon, I have seperated all my CSS so it's better for you to look through, 
+for the most part alot of the design and color schemes are the same/similar but
+these comments should make it easier to lsee everything */
+
+/* My wine page has one clickable link, the very first one*/
+
 * {
 	margin: 0;
 	padding: 0;
@@ -734,7 +740,7 @@ footer .copyright {
 #about-details h6 {
 	font-family: "komet-sc";
 	font-size: 14px;
-	color: #1a1a1a;
+	color: #1E1E1E;
 	padding-top: 10px;
 	text-align: center;
 }
@@ -742,24 +748,45 @@ footer .copyright {
 #about-details h2 {
 	font-size: 40px;
 	text-align: center;
-	color: #cff0be;
 } 
 
 #about-details p {
 	text-align: center;
 	font-size: 14px;
-	color: #f28c68; 
+	color: #515151; 
 	font-family: "komet";
 	font-style: italic;
 }
 
-#about-details .banner-box3 {  
+#bottom-details h6 {
+	font-family: "komet-sc";
+	font-size: 14px;
+	color: #ed6c4d;
+	padding-top: 10px;
+	text-align: center;
+}
+
+#bottom-details h2 {
+	font-size: 40px;
+	text-align: center;
+	color: #cff0be;
+} 
+
+#bottom-details p {
+	text-align: center;
+	font-size: 14px;
+	color: #fff; 
+	font-family: "komet";
+	font-style: italic;
+}
+
+#bottom-details .banner-box {  
 	display: flex;
 	flex-direction: column;
 	justify-content: center; 
 	background-image: url("../images/about/vineyard1.jpg");
 	min-width: 100%;
-	height: 60vh;
+	height: 65vh;
 	background-size: cover;
 	background-position: center;
 	padding: 30px;
@@ -778,3 +805,45 @@ footer .copyright {
 #about-header div {
 	padding-left: 40px;
 }
+
+/*  My Merch Shop */
+#page-header.merch-header {
+	background-image: url("../images/merch-shop/pexels-icon0-733100 copy.jpg");
+	width: 100%;
+	height: 70vh;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	padding: 14px; 
+}
+
+#page-header.merch-header h2 {
+	color: #ed6c4d;
+	font-family: "komet-sc";
+	font-size: 80px;
+	font-weight: 600;
+}
+
+#pagination {
+	text-align: center;
+}
+
+#pagination a {
+	text-decoration: none;
+	background-color: #99bc96;
+	padding: 15px 20px;
+	border-radius: 4px;
+	color: #fff;
+	font-weight: 600;
+}
+
+
+#pagination a i{
+	font-size: 16px;
+	font-weight: 600;
+}
+
+/* Contact */
+
