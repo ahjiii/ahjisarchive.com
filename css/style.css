@@ -205,6 +205,7 @@ button.white {
 #product1 .pro img {
 	width: 100%;
 	border-raidus: 20px;
+	height: 60vh;
 }
 
 #product1 .pro .des {
