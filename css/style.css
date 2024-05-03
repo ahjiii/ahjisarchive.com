@@ -188,8 +188,7 @@ button.white {
 
 #product1 .pro {
 	width: 22%;
-	min-width: 200px;
-	max-width: 250px; 
+	min-width: 250px;
 	padding: 10px 12px;
 	border: 1px solid #cce7d0;
 	border-radius: 25px;
